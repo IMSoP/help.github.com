@@ -8,6 +8,8 @@ description: A quick guide to help you get started with Git
 
 <p class="intro">This is the guide for setting up git in <strong>Windows</strong>. There are also guides for <strong><a href="/mac-set-up-git">OSX</a></strong> and <strong><a href="/linux-set-up-git">Linux</a></strong>.</p>
 
+<p class="intro">This official guide assumes you will use the default "openssh" tool for connections; if you already use PuTTY or TortoiseSVN, you may want to try <a href="/win-set-up-using-putty/">the alternative guide to set up using the PuTTY tools instead</a>. (If you didn't understand that sentence, just ignore it and carry on reading!)</p>
+
 ##<span class="step">First:</span> Download and Install Git
 
 At the heart of GitHub is an open source version control system (VCS) called Git&#42;. Created by the same dudes that created Linux, Git is responsible for everything GitHub related that happens locally on your computer.
@@ -30,7 +32,7 @@ _&#42;If you don&rsquo;t already know what Git is, <a href="http://progit.org/bo
     <img src="/images/bootcamp/bootcamp_1_win_install_8.jpg" width="558" height="442" alt="Installing" />
     <img src="/images/bootcamp/bootcamp_1_win_install_9.jpg" width="558" height="442" alt="Installation complete" />
 
-    <p><strong>Do not use PuTTY if you are given the option. GitHub only provides support for openssh.</strong></p>
+    <p><strong>The officially supported instructions below assume you are using openssh; if you wish to use the PuTTY family of tools (specifically, Pageant and PLink/TortoisePlink) instead, follow <a href="/win-set-up-using-putty/">this alternative guide</a>.</strong></p>
   </li>
 </ol>
 
