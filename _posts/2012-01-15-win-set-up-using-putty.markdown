@@ -82,17 +82,17 @@ We use SSH keys to establish a secure connection between your computer and GitHu
 		</div>
 	</div>
 	
-	<img src="/images/bootcamp/bootcamp_1_puttygen_3.jpg" width="483" height="467" alt="Passphrase and key comment" />
+	<img src="/images/bootcamp/bootcamp_1_puttygen_4.jpg" width="483" height="467" alt="Passphrase and key comment" />
 	
 	Finally, save your public and private keys for later use. It doesn't matter where you put them, but you'll need to be able to find them later in order to add them to Pageant.
 
-	<img src="/images/bootcamp/bootcamp_1_puttygen_4.jpg" width="483" height="467" alt="Save public and private keys" />
+	<img src="/images/bootcamp/bootcamp_1_puttygen_5.jpg" width="483" height="467" alt="Save public and private keys" />
 	
 2. <span class="step-title">Add your SSH key to GitHub.</span>
 
 	Before you close PuTTYkeygen, you'll need to copy the public SSH key so that you can tell GitHub to trust it. Select and copy the text in the box labelled "Public key for pasting into OpenSSH authorized_keys file". (Note that this isn't quite the same format as the ".ppk" file you just saved. You can always ask PuTTYgen to open or import keys if you need to convert them from one format to the other.) <span class="attention">It&rsquo;s important you copy your SSH key exactly as it is written without adding any newlines or whitespace.</span>
 	
-	<img src="/images/bootcamp/bootcamp_1_puttygen_4.jpg" width="483" height="467" alt="Copying the public key in OpenSSH format" />
+	<img src="/images/bootcamp/bootcamp_1_puttygen_6.jpg" width="483" height="467" alt="Copying the public key in OpenSSH format" />
 
 	On the GitHub site _Click &ldquo;Account Settings&rdquo;_ &gt; _Click &ldquo;SSH Public Keys&rdquo;_ &gt; _Click &ldquo;Add another public key&rdquo;_
 
@@ -140,7 +140,7 @@ We use SSH keys to establish a secure connection between your computer and GitHu
 	
 	Don&rsquo;t worry, this is supposed to happen. Click &ldquo;Yes&rdquo;.
 		
-	<img src="/images/bootcamp/bootcamp_1_putty_test_3.jpg" width="680" height="426" alt="Success!" />
+	<img src="/images/bootcamp/bootcamp_1_putty_test_3.jpg" width="542" height="340" alt="Success!" />
 		
 	That's it, you're all set!
 
